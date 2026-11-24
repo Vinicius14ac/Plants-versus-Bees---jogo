@@ -1,0 +1,2297 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vinic" at "2026-11-24T02:04:30.7418792Z"
+Built from '6000.6/staging' branch; Version is '6000.6.7f1 (b22767f04f04) revision 11675495'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'pt' Physical Memory: 7895 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-24T02:04:30Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 28512, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e1c71f6eecf942e5abe6d02a1a191ed8
+  Correlation Id:          5866f024b34fc9af519fc90c3ded5309
+  External correlation Id: 7623148053693545732
+  Machine Id:              Oiy8C28qt58Q6IlxLOBlB5MfATQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-vinic" (connect: 0.00s, validation: 0.01s, handshake: 0.13s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vinic-notifications" at "2026-11-24T02:04:30.8749529Z"
+[Licensing::Module] Licensing Background thread has ended after 0.13s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Dev/plants versus bees
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+60531
+-parentPid
+52772
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+4640b17b-8f0f-48c0-b71a-434806dff577
+-analyticsLocalProjectId
+c71efab93eefd8442a4f72a1c58e1147
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+0363498c49c90881c8b3c6ee42c1cd15d721be86
+-cbmMachineId
+Oiy8C28qt58Q6IlxLOBlB5MfATQ=
+-licensingIpc
+LicenseClient-vinic
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Dev/plants versus bees
+C:/Dev/plants versus bees
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [51504]  Target information:
+
+Player connection [51504]  * "[IP] 26.83.47.73 [Port] 0 [Flags] 2 [Guid] 3799676998 [EditorId] 3799676998 [Version] 1048832 [Id] WindowsEditor(7,vini_14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [51504]  * "[IP] 192.168.18.16 [Port] 0 [Flags] 2 [Guid] 3799676998 [EditorId] 3799676998 [Version] 1048832 [Id] WindowsEditor(7,vini_14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [51504] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [51504] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: b2d8b46074ee4df01b16b53b13c0facf
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 39.89 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 4.67 ms.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.7f1 (b22767f04f04)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Dev/plants versus bees/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:          NVIDIA
+    VRAM:            6001 MB
+    App VRAM Budget: 5233 MB
+    Driver:          32.0.16.1742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006659 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.561 seconds
+Domain Reload Profiling: 2751ms
+	BeginReloadAssembly (414ms)
+		CreateAndSetChildDomain (7ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (161ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (388ms)
+		TypeCache.Refresh (362ms)
+			TypeCache.ScanAssembly (334ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1563ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (1073ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674070024531-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 40.10 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 19.12 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  7.463 seconds
+Domain Reload Profiling: 11377ms
+	BeginReloadAssembly (700ms)
+		DisableScriptedObjects (24ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (68ms)
+	initialDomainReloadingComplete (293ms)
+	LoadAllAssembliesAndSetupDomain (2834ms)
+		LoadAssemblies (1506ms)
+		TypeCache.Refresh (1036ms)
+			TypeCache.ScanAssembly (948ms)
+		AnalyzeDomain (278ms)
+			BuildScriptInfoCaches (261ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (7466ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (416ms)
+			ProcessInitializeOnLoadAttributes (5253ms)
+			ProcessInitializeOnLoadMethodAttributes (1111ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 11.25 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11249 unused Assets / (20.2 MB). Loaded Objects now: 12248.
+Memory consumption went from 0.51 GB to 499.7 MB.
+Total: 59.863700 ms (FindLiveObjects: 20.497000 ms CreateObjectMapping: 1.747400 ms MarkObjects: 25.516000 ms  DeleteObjects: 10.777700 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 11.17 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 22.75 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.776 seconds
+Domain Reload Profiling: 7701ms
+	BeginReloadAssembly (1249ms)
+		DisableScriptedObjects (85ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (382ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (336ms)
+	LoadAllAssembliesAndSetupDomain (2262ms)
+		LoadAssemblies (2298ms)
+		TypeCache.Refresh (36ms)
+		AnalyzeDomain (22ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (3778ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (344ms)
+			ProcessInitializeOnLoadAttributes (1699ms)
+			ProcessInitializeOnLoadMethodAttributes (993ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (8ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+Refreshing native plugins compatible for Editor in 15.39 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11247 unused Assets / (22.6 MB). Loaded Objects now: 12252.
+Memory consumption went from 497.0 MB to 474.4 MB.
+Total: 37.356500 ms (FindLiveObjects: 2.587400 ms CreateObjectMapping: 1.798700 ms MarkObjects: 26.324900 ms  DeleteObjects: 5.884100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:26:30.6095881Z
+  Time since last request: 987566.53331660002004 seconds.
+  importAddress: GUID: c0c2975707d32d04f9b0586dca43c29d - Path: Assets/scripts/BaseJogador.cs - Importer: PreviewImporter
+Importing 'GUID: c0c2975707d32d04f9b0586dca43c29d - Path: Assets/scripts/BaseJogador.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c0c2975707d32d04f9b0586dca43c29d' -> (Import Result ID: 'be4f4611f9630f71ba889b657caa48ce') in 0.155 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=68463ec8bf8c75bf332b945b478d9670 DependenciesID=014ef7a2e4c75d793b36ff2d09ed36ae StaticDependenciesID=f7efcefbfd4d5494803b7278b7120c5d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 37.10 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 31.68 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  7.574 seconds
+Domain Reload Profiling: 16915ms
+	BeginReloadAssembly (3243ms)
+		ExecutionOrderSort (16ms)
+		DisableScriptedObjects (458ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (912ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (485ms)
+	LoadAllAssembliesAndSetupDomain (5546ms)
+		LoadAssemblies (3380ms)
+		TypeCache.Refresh (118ms)
+		AnalyzeDomain (1889ms)
+			BuildScriptInfoCaches (1788ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (7578ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (9ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (641ms)
+			ProcessInitializeOnLoadAttributes (3196ms)
+			ProcessInitializeOnLoadMethodAttributes (2088ms)
+			AfterProcessingInitializeOnLoad (50ms)
+			EditorAssembliesLoaded (142ms)
+		ExecutionOrderSort2 (45ms)
+		AwakeInstancesAfterBackupRestoration (411ms)
+Refreshing native plugins compatible for Editor in 54.22 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 2.17 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11247 unused Assets / (16.7 MB). Loaded Objects now: 12257.
+Memory consumption went from 0.51 GB to 509.7 MB.
+Total: 112.048800 ms (FindLiveObjects: 42.931100 ms CreateObjectMapping: 9.385500 ms MarkObjects: 40.530700 ms  DeleteObjects: 16.719900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:30:56.6749087Z
+  Time since last request: 265.22474 seconds.
+  importAddress: GUID: 18654eae24ff63944a7d5907a2a53754 - Path: Assets/scripts/GerenciadorGrade.cs - Importer: PreviewImporter
+Importing 'GUID: 18654eae24ff63944a7d5907a2a53754 - Path: Assets/scripts/GerenciadorGrade.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 18654eae24ff63944a7d5907a2a53754' -> (Import Result ID: 'dcac0bb05f57553be971e7d0206dc80f') in 0.137 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6d2607066742d364ff65fc85ec352fc DependenciesID=c70b25635433aee6b7f0015794a7129a StaticDependenciesID=4f3c7366856095a065819fb96468a740 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Network polling encountered an error: Thread was being aborted.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.AI.Toolkit.Accounts.Services.States.SettingsState:<PollNetworkAsync>b__46_0 () (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.Toolkit.Accounts/Services/States/SettingsState.cs:125)
+System.Threading.Tasks.Task:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.Toolkit.Accounts/Services/States/SettingsState.cs Line: 125)
+
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 33.02 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 28.17 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  5.950 seconds
+Domain Reload Profiling: 17019ms
+	BeginReloadAssembly (3900ms)
+		ExecutionOrderSort (12ms)
+		DisableScriptedObjects (540ms)
+		ReleaseScriptingObjects (8ms)
+		CreateAndSetChildDomain (1367ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (683ms)
+	LoadAllAssembliesAndSetupDomain (6433ms)
+		LoadAssemblies (3668ms)
+		TypeCache.Refresh (162ms)
+		AnalyzeDomain (1403ms)
+			BuildScriptInfoCaches (1371ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (5955ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (12ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (472ms)
+			ProcessInitializeOnLoadAttributes (3130ms)
+			ProcessInitializeOnLoadMethodAttributes (1575ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (8ms)
+		AwakeInstancesAfterBackupRestoration (80ms)
+Refreshing native plugins compatible for Editor in 63.35 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11247 unused Assets / (16.5 MB). Loaded Objects now: 12260.
+Memory consumption went from 0.52 GB to 0.51 GB.
+Total: 56.875800 ms (FindLiveObjects: 9.755400 ms CreateObjectMapping: 3.146400 ms MarkObjects: 32.201700 ms  DeleteObjects: 10.478400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:38:21.303251Z
+  Time since last request: 444.096024 seconds.
+  importAddress: GUID: 18654eae24ff63944a7d5907a2a53754 - Path: Assets/scripts/GerenciadorGrade.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 18654eae24ff63944a7d5907a2a53754 - Path: Assets/scripts/GerenciadorGrade.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 18654eae24ff63944a7d5907a2a53754' -> (Import Result ID: '6a1aa476391c9ecedb8676e7985472cb') in 2.595 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c028baee6c4f650dade090f05b4a0b1c DependenciesID=f79b773570888d72bc284df378e0841a StaticDependenciesID=5e1c190bc886ca8480e1306796f6d554 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 36.07 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11214 unused Assets / (19.9 MB). Loaded Objects now: 12261.
+Memory consumption went from 0.52 GB to 0.50 GB.
+Total: 287.439100 ms (FindLiveObjects: 25.507700 ms CreateObjectMapping: 9.314400 ms MarkObjects: 238.314000 ms  DeleteObjects: 12.722900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 64.09 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 19.87 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  5.171 seconds
+Domain Reload Profiling: 14323ms
+	BeginReloadAssembly (3897ms)
+		ExecutionOrderSort (19ms)
+		DisableScriptedObjects (459ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (1598ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (626ms)
+	LoadAllAssembliesAndSetupDomain (4565ms)
+		LoadAssemblies (3327ms)
+		TypeCache.Refresh (101ms)
+		AnalyzeDomain (974ms)
+			BuildScriptInfoCaches (935ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (5175ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (542ms)
+			ProcessInitializeOnLoadAttributes (2539ms)
+			ProcessInitializeOnLoadMethodAttributes (1187ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (9ms)
+		AwakeInstancesAfterBackupRestoration (62ms)
+Refreshing native plugins compatible for Editor in 39.61 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11248 unused Assets / (18.9 MB). Loaded Objects now: 12264.
+Memory consumption went from 0.53 GB to 0.51 GB.
+Total: 116.964700 ms (FindLiveObjects: 32.002000 ms CreateObjectMapping: 7.279600 ms MarkObjects: 57.747000 ms  DeleteObjects: 18.484800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 32.96 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11214 unused Assets / (17.2 MB). Loaded Objects now: 12264.
+Memory consumption went from 0.53 GB to 0.52 GB.
+Total: 116.924000 ms (FindLiveObjects: 3.591700 ms CreateObjectMapping: 1.450400 ms MarkObjects: 95.056700 ms  DeleteObjects: 15.434600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:25.558405Z
+  Time since last request: 61.1914251 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.068 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:25.693587Z
+  Time since last request: 0.0092113 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:25.7860454Z
+  Time since last request: 0.0077948 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:25.8419826Z
+  Time since last request: 0.0021222 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:25.8991977Z
+  Time since last request: 0.0105661 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:25.9460842Z
+  Time since last request: 0.0019674 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:25.993907Z
+  Time since last request: 0.0013932 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.0389354Z
+  Time since last request: 0.0059584 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.0866294Z
+  Time since last request: 0.0054462 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.1447137Z
+  Time since last request: 0.0083238 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.190762Z
+  Time since last request: 0.0008613 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.2420008Z
+  Time since last request: 0.0079622 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.2963596Z
+  Time since last request: 0.0058541 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.3509878Z
+  Time since last request: 0.0024578 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.4012655Z
+  Time since last request: 0.0036309 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.4520152Z
+  Time since last request: 0.0117493 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.5504534Z
+  Time since last request: 0.0059204 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.6620797Z
+  Time since last request: 0.019998 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.7432774Z
+  Time since last request: 0.0011638 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.8035837Z
+  Time since last request: 0.0030931 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.8796781Z
+  Time since last request: 0.0113878 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.9318838Z
+  Time since last request: 0.0009117 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:26.9905586Z
+  Time since last request: 0.0028801 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.0957724Z
+  Time since last request: 0.0419953 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.1844152Z
+  Time since last request: 0.0054022 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.2781076Z
+  Time since last request: 0.0171728 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.3693914Z
+  Time since last request: 0.010568 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.426177Z
+  Time since last request: 0.0029181 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.5098821Z
+  Time since last request: 0.014604 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.6319355Z
+  Time since last request: 0.0055379 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.7033506Z
+  Time since last request: 0.0084215 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.7895006Z
+  Time since last request: 0.0116561 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.8702929Z
+  Time since last request: 0.0118784 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:27.9397203Z
+  Time since last request: 0.0015707 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.0153432Z
+  Time since last request: 0.0120072 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.0761595Z
+  Time since last request: 0.0113929 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.1319733Z
+  Time since last request: 0.0066245 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.203154Z
+  Time since last request: 0.0013517 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.2618475Z
+  Time since last request: 0.0067876 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.3158648Z
+  Time since last request: 0.006616 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.3768239Z
+  Time since last request: 0.010683 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.419949Z
+  Time since last request: 0.0028792 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.4632248Z
+  Time since last request: 0.0015173 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.5093164Z
+  Time since last request: 0.0018101 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.5521442Z
+  Time since last request: 0.0053735 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.5902825Z
+  Time since last request: 0.0045889 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.6247062Z
+  Time since last request: 0.0008545 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.6576005Z
+  Time since last request: 0.0012516 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.6949231Z
+  Time since last request: 0.0039 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.7318303Z
+  Time since last request: 0.0065092 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.7695325Z
+  Time since last request: 0.0063386 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.8038469Z
+  Time since last request: 0.0007595 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.842184Z
+  Time since last request: 0.0039278 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.8771867Z
+  Time since last request: 0.0037937 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.9127189Z
+  Time since last request: 0.0056534 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.9471926Z
+  Time since last request: 0.0058787 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:28.9830623Z
+  Time since last request: 0.0056479 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:29.0156382Z
+  Time since last request: 0.001829 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:29.0499934Z
+  Time since last request: 0.0008461 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:29.0983318Z
+  Time since last request: 0.0058221 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:29.1722131Z
+  Time since last request: 0.0010729 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:29.2389813Z
+  Time since last request: 0.00222 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:29.3447279Z
+  Time since last request: 0.0113804 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:29.4454994Z
+  Time since last request: 0.0509195 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:29.8535225Z
+  Time since last request: 0.2965048 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:30.1986389Z
+  Time since last request: 0.0331266 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:30.4116725Z
+  Time since last request: 0.008578 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:30.5152486Z
+  Time since last request: 0.0031168 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:30.6829027Z
+  Time since last request: 0.072286 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:30.8017394Z
+  Time since last request: 0.0096445 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:30.8884688Z
+  Time since last request: 0.0033623 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:31.0204367Z
+  Time since last request: 0.0078098 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:31.1701223Z
+  Time since last request: 0.0033277 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:31.2887947Z
+  Time since last request: 0.0759884 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:31.5094271Z
+  Time since last request: 0.0062405 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:31.6479263Z
+  Time since last request: 0.0035092 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:31.8504573Z
+  Time since last request: 0.0017041 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:31.9555864Z
+  Time since last request: 0.0162352 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:32.071566Z
+  Time since last request: 0.0061345 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:32.1175089Z
+  Time since last request: 0.0020472 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:32.252156Z
+  Time since last request: 0.0032875 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:32.4422246Z
+  Time since last request: 0.0050202 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:32.5367042Z
+  Time since last request: 0.003595 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:32.6588233Z
+  Time since last request: 0.0017305 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:33.0526228Z
+  Time since last request: 0.0002188 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:33.3014814Z
+  Time since last request: 0.0131117 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:33.5877472Z
+  Time since last request: 0.000533 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:33.743527Z
+  Time since last request: 0.0068538 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:34.0699545Z
+  Time since last request: 0.0208586 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:34.4122316Z
+  Time since last request: 0.0210384 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:34.5567185Z
+  Time since last request: 0.0017841 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:34.7047912Z
+  Time since last request: 0.0018319 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:34.7997843Z
+  Time since last request: 0.0116915 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:34.9070302Z
+  Time since last request: 0.0296338 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:35.1138555Z
+  Time since last request: 0.0624228 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:35.3230136Z
+  Time since last request: 0.0079796 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:35.6628142Z
+  Time since last request: 0.0009227 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:39:36.0158334Z
+  Time since last request: 0.0233095 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '82ba34df1e4a25ba99cf6b7a9fac90ad') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=6505582b7d31ecefa121fab42f1f0d1a StaticDependenciesID=c66c49abc7e4376e6cbf88e4e0ee911d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 38.85 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 71.03 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in 12.233 seconds
+Domain Reload Profiling: 29029ms
+	BeginReloadAssembly (3824ms)
+		ExecutionOrderSort (15ms)
+		DisableScriptedObjects (529ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (1378ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (968ms)
+	LoadAllAssembliesAndSetupDomain (11903ms)
+		LoadAssemblies (4298ms)
+		TypeCache.Refresh (318ms)
+			TypeCache.ScanAssembly (4ms)
+		AnalyzeDomain (4253ms)
+			BuildScriptInfoCaches (4124ms)
+			ResolveRequiredComponents (77ms)
+	FinalizeReload (12265ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (43ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (555ms)
+			ProcessInitializeOnLoadAttributes (4308ms)
+			ProcessInitializeOnLoadMethodAttributes (2039ms)
+			AfterProcessingInitializeOnLoad (125ms)
+			EditorAssembliesLoaded (54ms)
+		ExecutionOrderSort2 (3ms)
+		AwakeInstancesAfterBackupRestoration (1447ms)
+Refreshing native plugins compatible for Editor in 232.48 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 6.16 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11248 unused Assets / (15.1 MB). Loaded Objects now: 12267.
+Memory consumption went from 0.53 GB to 0.52 GB.
+Total: 979.353600 ms (FindLiveObjects: 245.939800 ms CreateObjectMapping: 54.259700 ms MarkObjects: 412.922100 ms  DeleteObjects: 244.413900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 58.72 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 34.93 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  6.543 seconds
+Domain Reload Profiling: 16309ms
+	BeginReloadAssembly (3328ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (435ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (1268ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (689ms)
+	LoadAllAssembliesAndSetupDomain (5678ms)
+		LoadAssemblies (3841ms)
+		TypeCache.Refresh (130ms)
+			TypeCache.ScanAssembly (3ms)
+		AnalyzeDomain (1398ms)
+			BuildScriptInfoCaches (1360ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (6545ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (832ms)
+			ProcessInitializeOnLoadAttributes (3640ms)
+			ProcessInitializeOnLoadMethodAttributes (1352ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (6ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 21.99 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11248 unused Assets / (17.3 MB). Loaded Objects now: 12270.
+Memory consumption went from 0.54 GB to 0.52 GB.
+Total: 109.942800 ms (FindLiveObjects: 35.925100 ms CreateObjectMapping: 14.709700 ms MarkObjects: 44.042500 ms  DeleteObjects: 14.316600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:42:18.4864656Z
+  Time since last request: 162.2214232 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: '3813c113868268ec10f9e46049bbcaa8') in 0.534 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be68501e577a5459174fbb69066c63dd DependenciesID=08ba9147612474bc6ee932a69ab8182e StaticDependenciesID=285fe1a4b3a2b32499e0c94a7ed81f5d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 78.24 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 7.32 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11215 unused Assets / (22.9 MB). Loaded Objects now: 12271.
+Memory consumption went from 0.54 GB to 0.52 GB.
+Total: 592.995300 ms (FindLiveObjects: 12.995500 ms CreateObjectMapping: 5.900600 ms MarkObjects: 556.490000 ms  DeleteObjects: 15.893200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 96.20 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 76.41 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in 14.235 seconds
+Domain Reload Profiling: 26118ms
+	BeginReloadAssembly (3897ms)
+		ExecutionOrderSort (10ms)
+		DisableScriptedObjects (601ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (1739ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (470ms)
+	LoadAllAssembliesAndSetupDomain (7444ms)
+		LoadAssemblies (2962ms)
+		TypeCache.Refresh (109ms)
+			TypeCache.ScanAssembly (3ms)
+		AnalyzeDomain (2361ms)
+			BuildScriptInfoCaches (2282ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (14242ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (14ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			BeforeProcessingInitializeOnLoad (1342ms)
+			ProcessInitializeOnLoadAttributes (7069ms)
+			ProcessInitializeOnLoadMethodAttributes (3415ms)
+			AfterProcessingInitializeOnLoad (48ms)
+			EditorAssembliesLoaded (9ms)
+		AwakeInstancesAfterBackupRestoration (381ms)
+Refreshing native plugins compatible for Editor in 59.25 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11249 unused Assets / (16.8 MB). Loaded Objects now: 12274.
+Memory consumption went from 0.55 GB to 0.53 GB.
+Total: 92.418100 ms (FindLiveObjects: 6.802500 ms CreateObjectMapping: 3.675800 ms MarkObjects: 68.520600 ms  DeleteObjects: 12.206900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 38.75 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 14.68 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  4.433 seconds
+Domain Reload Profiling: 13015ms
+	BeginReloadAssembly (3103ms)
+		ExecutionOrderSort (7ms)
+		DisableScriptedObjects (439ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (1168ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (558ms)
+	LoadAllAssembliesAndSetupDomain (4862ms)
+		LoadAssemblies (3132ms)
+		TypeCache.Refresh (152ms)
+			TypeCache.ScanAssembly (7ms)
+		AnalyzeDomain (1416ms)
+			BuildScriptInfoCaches (1371ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (4436ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (420ms)
+			ProcessInitializeOnLoadAttributes (2144ms)
+			ProcessInitializeOnLoadMethodAttributes (1131ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (7ms)
+		AwakeInstancesAfterBackupRestoration (111ms)
+Refreshing native plugins compatible for Editor in 24.68 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11249 unused Assets / (19.6 MB). Loaded Objects now: 12277.
+Memory consumption went from 0.56 GB to 0.54 GB.
+Total: 81.100100 ms (FindLiveObjects: 19.567000 ms CreateObjectMapping: 2.221800 ms MarkObjects: 46.314900 ms  DeleteObjects: 12.081300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 27.71 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (14.4 MB). Loaded Objects now: 12277.
+Memory consumption went from 0.55 GB to 0.54 GB.
+Total: 329.959800 ms (FindLiveObjects: 6.024800 ms CreateObjectMapping: 1.713300 ms MarkObjects: 318.219500 ms  DeleteObjects: 2.908600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:52:58.0735778Z
+  Time since last request: 638.7975083 seconds.
+  importAddress: GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter
+Importing 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329 - Path: Assets/scripts/GerenciadorDinheiro.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ccb7107ade793a4b88f4f65c9e6a329' -> (Import Result ID: 'd4f6a155ba9ef39cb887cb2ccb8c4b8f') in 0.157 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a30cdca2a44130cc3f137e23307eec9 DependenciesID=4c2056e99e3ed01033c2f4d4fc9c8059 StaticDependenciesID=ae9ab7dc7d941d20d66c3f42482d250f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T02:52:58.8493974Z
+  Time since last request: 0.3008144 seconds.
+  importAddress: GUID: 18654eae24ff63944a7d5907a2a53754 - Path: Assets/scripts/GerenciadorGrade.cs - Importer: PreviewImporter
+Importing 'GUID: 18654eae24ff63944a7d5907a2a53754 - Path: Assets/scripts/GerenciadorGrade.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 18654eae24ff63944a7d5907a2a53754' -> (Import Result ID: '9302e458b8ec98cb99fa1530eaad0df9') in 0.090 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6d2607066742d364ff65fc85ec352fc DependenciesID=809fb6aabd272b12b2f3db9e539f440c StaticDependenciesID=55038c3a6979d5c5f6248462c182bb62 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 23.18 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 29.59 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  4.797 seconds
+Domain Reload Profiling: 29493ms
+	BeginReloadAssembly (8583ms)
+		ExecutionOrderSort (13ms)
+		DisableScriptedObjects (1188ms)
+		ReleaseScriptingObjects (10ms)
+		CreateAndSetChildDomain (2652ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (114ms)
+	initialDomainReloadingComplete (1452ms)
+	LoadAllAssembliesAndSetupDomain (14465ms)
+		LoadAssemblies (13360ms)
+		TypeCache.Refresh (234ms)
+			TypeCache.ScanAssembly (3ms)
+		AnalyzeDomain (2252ms)
+			BuildScriptInfoCaches (2171ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (4801ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (11ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (439ms)
+			ProcessInitializeOnLoadAttributes (2189ms)
+			ProcessInitializeOnLoadMethodAttributes (1299ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (10ms)
+		AwakeInstancesAfterBackupRestoration (108ms)
+Refreshing native plugins compatible for Editor in 35.75 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11249 unused Assets / (17.1 MB). Loaded Objects now: 12280.
+Memory consumption went from 0.55 GB to 0.54 GB.
+Total: 119.458200 ms (FindLiveObjects: 37.729400 ms CreateObjectMapping: 11.303400 ms MarkObjects: 43.745100 ms  DeleteObjects: 24.886700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 28.74 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (14.4 MB). Loaded Objects now: 12280.
+Memory consumption went from 0.55 GB to 0.54 GB.
+Total: 1062.984200 ms (FindLiveObjects: 14.232600 ms CreateObjectMapping: 5.515000 ms MarkObjects: 1035.900500 ms  DeleteObjects: 6.061200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:20:24.4619916Z
+  Time since last request: 1645.49506130000009 seconds.
+  importAddress: GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/Inimigo 2.prefab - Importer: PreviewImporter
+Importing 'GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/Inimigo 2.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8c30815a3194e104fa7f5d00b08e0c77' -> (Import Result ID: '4b2cb1410c7fe296402ffcf633f78a56') in 3.838 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdb58e6c9654d0eb097dc934b149cc2f DependenciesID=67a1f3f0fc7b15748f038f6a5338ccf0 StaticDependenciesID=6ed2a341b73d7da1c53ef5f0ecdf6cb4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:20:38.4356193Z
+  Time since last request: 9.9216009 seconds.
+  importAddress: GUID: 030025ad559910848a1fca7a62511177 - Path: Assets/Prefabs/AbelhaNormal.prefab - Importer: PreviewImporter
+Importing 'GUID: 030025ad559910848a1fca7a62511177 - Path: Assets/Prefabs/AbelhaNormal.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 030025ad559910848a1fca7a62511177' -> (Import Result ID: 'cf8137cf0012a76a9bd11eb45a8e113e') in 0.334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d73e62d46aae6b77a5c8021049ea2e67 DependenciesID=d5254d022015e80c9fad2ed27f3beda3 StaticDependenciesID=a33da3e5ac506c4c808d1b383e074dad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:20:45.4564035Z
+  Time since last request: 6.5604162 seconds.
+  importAddress: GUID: dc2ac73cd5a33f44eb7c3876993380d8 - Path: Assets/Prefabs/AbelhaCorredora.prefab - Importer: PreviewImporter
+Importing 'GUID: dc2ac73cd5a33f44eb7c3876993380d8 - Path: Assets/Prefabs/AbelhaCorredora.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dc2ac73cd5a33f44eb7c3876993380d8' -> (Import Result ID: '666ec87fec8ff8e24d4c089d8be7131e') in 0.113 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aeee377ba287215e64c2843d45373480 DependenciesID=6cc4d48819292e63fadbfba3db1f44ae StaticDependenciesID=dbfd4dd87432d4e380616a78d1372aab 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:21:50.1155455Z
+  Time since last request: 64.21950339999999 seconds.
+  importAddress: GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter
+Importing 'GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8c30815a3194e104fa7f5d00b08e0c77' -> (Import Result ID: 'bb3174cc6a31941d0be3141a5f0c8ebc') in 0.159 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdb58e6c9654d0eb097dc934b149cc2f DependenciesID=5e85566d8a2800c42edb4a8a664b082e StaticDependenciesID=0de3dd29b1dc7a2075df31327b67c12b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 55.75 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 3.03 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (14.4 MB). Loaded Objects now: 12384.
+Memory consumption went from 0.56 GB to 0.54 GB.
+Total: 1177.084600 ms (FindLiveObjects: 26.195000 ms CreateObjectMapping: 15.277200 ms MarkObjects: 1123.325800 ms  DeleteObjects: 9.142900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:23:04.1438362Z
+  Time since last request: 73.7880036 seconds.
+  importAddress: GUID: 030025ad559910848a1fca7a62511177 - Path: Assets/Prefabs/AbelhaNormal.prefab - Importer: PreviewImporter
+Importing 'GUID: 030025ad559910848a1fca7a62511177 - Path: Assets/Prefabs/AbelhaNormal.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 030025ad559910848a1fca7a62511177' -> (Import Result ID: 'dce0ed0f99d431e4369343dc3fabda94') in 0.213 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d73e62d46aae6b77a5c8021049ea2e67 DependenciesID=b054be0036d92c9ce818b43384060c5a StaticDependenciesID=f8406d2533ae6b9948849e79c1e2c3e4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 25.81 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (14.4 MB). Loaded Objects now: 12384.
+Memory consumption went from 0.56 GB to 0.54 GB.
+Total: 477.805400 ms (FindLiveObjects: 9.947500 ms CreateObjectMapping: 3.312900 ms MarkObjects: 458.836400 ms  DeleteObjects: 4.311800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 22.44 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (14.6 MB). Loaded Objects now: 12384.
+Memory consumption went from 0.56 GB to 0.55 GB.
+Total: 59.740600 ms (FindLiveObjects: 1.691900 ms CreateObjectMapping: 1.111300 ms MarkObjects: 52.782500 ms  DeleteObjects: 3.074900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 13.97 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (14.4 MB). Loaded Objects now: 12384.
+Memory consumption went from 0.56 GB to 0.55 GB.
+Total: 175.248500 ms (FindLiveObjects: 7.789400 ms CreateObjectMapping: 4.864300 ms MarkObjects: 158.108900 ms  DeleteObjects: 3.425900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:24:41.3413338Z
+  Time since last request: 96.8108952 seconds.
+  importAddress: GUID: dc2ac73cd5a33f44eb7c3876993380d8 - Path: Assets/Prefabs/AbelhaCorredora.prefab - Importer: PreviewImporter
+Importing 'GUID: dc2ac73cd5a33f44eb7c3876993380d8 - Path: Assets/Prefabs/AbelhaCorredora.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dc2ac73cd5a33f44eb7c3876993380d8' -> (Import Result ID: 'c056de41559c50f8c266391178fc9954') in 0.221 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0187962f9535af4d83e020746d0ff155 DependenciesID=27f7500633e753e0813e34af131e5f59 StaticDependenciesID=57f2e70def6ef35ad149fd6398f7b475 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:24:58.6811946Z
+  Time since last request: 17.044175 seconds.
+  importAddress: GUID: dc2ac73cd5a33f44eb7c3876993380d8 - Path: Assets/Prefabs/AbelhaCorredora.prefab - Importer: PreviewImporter
+Importing 'GUID: dc2ac73cd5a33f44eb7c3876993380d8 - Path: Assets/Prefabs/AbelhaCorredora.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dc2ac73cd5a33f44eb7c3876993380d8' -> (Import Result ID: 'faffca36ffc429f3e0c9d8cffbbff1ab') in 0.125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=332fc116c50ea1b1c00ba82ce73d777e DependenciesID=36a6a86151f97f4729ad3d83c7a0c098 StaticDependenciesID=27dc4b5300cfff0ae83f03fce33fb970 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 17.69 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (14.4 MB). Loaded Objects now: 12384.
+Memory consumption went from 0.56 GB to 0.54 GB.
+Total: 532.293000 ms (FindLiveObjects: 11.812000 ms CreateObjectMapping: 2.941000 ms MarkObjects: 510.186700 ms  DeleteObjects: 5.782000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:25:45.4239308Z
+  Time since last request: 46.5291335 seconds.
+  importAddress: GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter
+Importing 'GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8c30815a3194e104fa7f5d00b08e0c77' -> (Import Result ID: 'ae77b13bba9907b56ab3de429bf79657') in 0.113 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdb58e6c9654d0eb097dc934b149cc2f DependenciesID=1bbb0ecd1f81f9c2d9e9ed0542ae89d2 StaticDependenciesID=53c3b1fe690b70f38bd2d74f63121885 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:25:56.0236184Z
+  Time since last request: 10.4461706 seconds.
+  importAddress: GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter
+Importing 'GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8c30815a3194e104fa7f5d00b08e0c77' -> (Import Result ID: '0c375ba8bfe3ffae53b7a8a8d235077b') in 0.045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=487e49603b1d95b270143e2820e2b0e3 DependenciesID=897a186fe6a98c6258f9766d66ff7b21 StaticDependenciesID=7a86c57948671bd3a26efad032bf342d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:26:36.3567976Z
+  Time since last request: 40.2138999 seconds.
+  importAddress: GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter
+Importing 'GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8c30815a3194e104fa7f5d00b08e0c77' -> (Import Result ID: 'f7be9cdc62bd8432d402e8c0e90b282c') in 0.121 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1af69c21792e6150319b602e3096a1c DependenciesID=1b99431c559e0de6fc731e0fefefa9dd StaticDependenciesID=c4335f3866da2b6820219c2e204eb158 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 28.06 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (14.5 MB). Loaded Objects now: 12384.
+Memory consumption went from 0.56 GB to 0.54 GB.
+Total: 285.607100 ms (FindLiveObjects: 5.894900 ms CreateObjectMapping: 1.802900 ms MarkObjects: 270.936100 ms  DeleteObjects: 5.302200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:26:43.2895538Z
+  Time since last request: 6.7638948 seconds.
+  importAddress: GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter
+Importing 'GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8c30815a3194e104fa7f5d00b08e0c77' -> (Import Result ID: '58660785976051aaf5212f4cbae09517') in 0.054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=376b69e2ed471eb9946f3c2e8e02f7f7 DependenciesID=fab7b5abbc9dd16a8f9903502b122bf3 StaticDependenciesID=3209391e5d9c4a02097f11e2b7759dfa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 23.87 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (14.4 MB). Loaded Objects now: 12384.
+Memory consumption went from 0.56 GB to 0.54 GB.
+Total: 148.429300 ms (FindLiveObjects: 2.549600 ms CreateObjectMapping: 2.419300 ms MarkObjects: 138.735300 ms  DeleteObjects: 3.505000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:26:48.3016723Z
+  Time since last request: 4.904257 seconds.
+  importAddress: GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter
+Importing 'GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8c30815a3194e104fa7f5d00b08e0c77' -> (Import Result ID: '5fedfbbf601a36d87359cad7aa124869') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f46b17233ba1d968a7b96701e40e94e DependenciesID=2944e0b7007528beceb3a5e98fae7944 StaticDependenciesID=1a29808ef81ac31ff4de6d7b7f521da2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:34:36.8291015Z
+  Time since last request: 468.46558370000002 seconds.
+  importAddress: GUID: 18654eae24ff63944a7d5907a2a53754 - Path: Assets/scripts/GerenciadorGrade.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 18654eae24ff63944a7d5907a2a53754 - Path: Assets/scripts/GerenciadorGrade.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 18654eae24ff63944a7d5907a2a53754' -> (Import Result ID: '53c6acf51dbb572fc4d5142bab1cd9ba') in 3.088 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fea99413816a53651c4e63cb4a519478 DependenciesID=db3456214bb54f2a674eb44d1380e226 StaticDependenciesID=15a40bd038e74ec15c8a4770fa34999c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:34:40.3768423Z
+  Time since last request: 0.0033044 seconds.
+  importAddress: GUID: 030025ad559910848a1fca7a62511177 - Path: Assets/Prefabs/AbelhaNormal.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 030025ad559910848a1fca7a62511177 - Path: Assets/Prefabs/AbelhaNormal.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 030025ad559910848a1fca7a62511177' -> (Import Result ID: 'b77d90c5a16b52fa233e8ed81b589c6f') in 0.706 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0089fefcedcb542dc79225ef48fd5533 DependenciesID=cf504439a3c032ca2d4e307ce195ae3c StaticDependenciesID=06bceb6ae3540bf6f91b9d05bbf4f72a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:34:41.1227266Z
+  Time since last request: 0.0013036 seconds.
+  importAddress: GUID: eb8d23a17e402144ebe9331ec3cea0d6 - Path: Assets/Prefabs/Sunflower.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: eb8d23a17e402144ebe9331ec3cea0d6 - Path: Assets/Prefabs/Sunflower.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: eb8d23a17e402144ebe9331ec3cea0d6' -> (Import Result ID: 'c4887787b7bd3f7a2dd4fdbaf369346c') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df6b0a5d786429c39bec8fa257fbce72 DependenciesID=f322898058170a673003634010cdf276 StaticDependenciesID=3099ee32326eb9b9f357793613647576 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:34:41.1947947Z
+  Time since last request: 0.0029861 seconds.
+  importAddress: GUID: dc2ac73cd5a33f44eb7c3876993380d8 - Path: Assets/Prefabs/AbelhaCorredora.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dc2ac73cd5a33f44eb7c3876993380d8 - Path: Assets/Prefabs/AbelhaCorredora.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dc2ac73cd5a33f44eb7c3876993380d8' -> (Import Result ID: '2b70eb7975da8736a13b2445c7e99918') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d46e023d2fdf2f643fc81bf48976f031 DependenciesID=c47ae31d9196f8e1aeb6a790d2e1a85a StaticDependenciesID=d8820b0720b88c6d041a7ffcd0ad8950 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 24.69 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11216 unused Assets / (21.3 MB). Loaded Objects now: 12385.
+Memory consumption went from 0.57 GB to 0.55 GB.
+Total: 400.451800 ms (FindLiveObjects: 11.057300 ms CreateObjectMapping: 4.443600 ms MarkObjects: 368.819700 ms  DeleteObjects: 15.139300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:34:54.4489745Z
+  Time since last request: 13.1927837 seconds.
+  importAddress: GUID: 6d5eb4924342db84d92a5bdc25c3a443 - Path: Assets/scripts/GerenciadorOndas.cs - Importer: PreviewImporter
+Importing 'GUID: 6d5eb4924342db84d92a5bdc25c3a443 - Path: Assets/scripts/GerenciadorOndas.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6d5eb4924342db84d92a5bdc25c3a443' -> (Import Result ID: 'ea923baccfd39fd93d28861b837f20b1') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a40ace97a20ad9f1a839a2a99043fa1c DependenciesID=071dcac495e766c82efd585f660c3448 StaticDependenciesID=0c0c146de55f2a7b573af87845427f69 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 39.36 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 2.42 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11216 unused Assets / (20.7 MB). Loaded Objects now: 12385.
+Memory consumption went from 0.57 GB to 0.55 GB.
+Total: 1580.264000 ms (FindLiveObjects: 23.964800 ms CreateObjectMapping: 5.554600 ms MarkObjects: 1508.560100 ms  DeleteObjects: 40.417200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:35:39.2129068Z
+  Time since last request: 44.7232552 seconds.
+  importAddress: GUID: 6d5eb4924342db84d92a5bdc25c3a443 - Path: Assets/scripts/GerenciadorOndas.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6d5eb4924342db84d92a5bdc25c3a443 - Path: Assets/scripts/GerenciadorOndas.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6d5eb4924342db84d92a5bdc25c3a443' -> (Import Result ID: 'c0b34aa66c1b0f6bb55a329bb05aebba') in 0.128 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=760b5255f98db2e1ce0a884a2f08162e DependenciesID=f5388e3a637845bea48c3899a03f616a StaticDependenciesID=3bb3abce600eb21deccf987fa19b027b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 25.51 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 2.28 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (14.5 MB). Loaded Objects now: 12385.
+Memory consumption went from 0.56 GB to 0.55 GB.
+Total: 382.033200 ms (FindLiveObjects: 13.842000 ms CreateObjectMapping: 4.342900 ms MarkObjects: 358.118300 ms  DeleteObjects: 3.492800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 27.45 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11216 unused Assets / (23.0 MB). Loaded Objects now: 12385.
+Memory consumption went from 0.57 GB to 0.55 GB.
+Total: 798.814000 ms (FindLiveObjects: 26.509000 ms CreateObjectMapping: 4.125200 ms MarkObjects: 729.902600 ms  DeleteObjects: 35.783000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:42:11.4510402Z
+  Time since last request: 391.81144430000001 seconds.
+  importAddress: GUID: 57d1d5b0c8d6be342a182fb4b619e25c - Path: Assets/scripts/InimigoMovimento.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 57d1d5b0c8d6be342a182fb4b619e25c - Path: Assets/scripts/InimigoMovimento.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 57d1d5b0c8d6be342a182fb4b619e25c' -> (Import Result ID: 'fd679beb721ef5948d34997378fa3091') in 0.099 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0cdaad10c4acde740be66a9ea07c8b1e DependenciesID=702cb6720f16b78648c31b70e981e8a3 StaticDependenciesID=b8b4817c953d3c5d37aeaf5702542600 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 21.24 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11215 unused Assets / (22.0 MB). Loaded Objects now: 12384.
+Memory consumption went from 0.57 GB to 0.55 GB.
+Total: 320.337500 ms (FindLiveObjects: 15.030600 ms CreateObjectMapping: 5.407000 ms MarkObjects: 290.691300 ms  DeleteObjects: 8.378600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 13.09 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11216 unused Assets / (25.3 MB). Loaded Objects now: 12385.
+Memory consumption went from 0.58 GB to 0.55 GB.
+Total: 329.885500 ms (FindLiveObjects: 15.855300 ms CreateObjectMapping: 3.147600 ms MarkObjects: 298.409400 ms  DeleteObjects: 11.564800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 36.09 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11216 unused Assets / (23.3 MB). Loaded Objects now: 12385.
+Memory consumption went from 0.58 GB to 0.56 GB.
+Total: 211.913900 ms (FindLiveObjects: 24.521000 ms CreateObjectMapping: 3.708500 ms MarkObjects: 168.487100 ms  DeleteObjects: 13.910500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 24.38 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 106.33 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  6.964 seconds
+Domain Reload Profiling: 23737ms
+	BeginReloadAssembly (8774ms)
+		ExecutionOrderSort (20ms)
+		DisableScriptedObjects (1825ms)
+		ReleaseScriptingObjects (15ms)
+		CreateAndSetChildDomain (3756ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (1200ms)
+	LoadAllAssembliesAndSetupDomain (6746ms)
+		LoadAssemblies (4774ms)
+		TypeCache.Refresh (158ms)
+		AnalyzeDomain (1630ms)
+			BuildScriptInfoCaches (1537ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (6968ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (16ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (766ms)
+			ProcessInitializeOnLoadAttributes (2873ms)
+			ProcessInitializeOnLoadMethodAttributes (1447ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (10ms)
+		AwakeInstancesAfterBackupRestoration (111ms)
+Refreshing native plugins compatible for Editor in 32.64 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11249 unused Assets / (16.1 MB). Loaded Objects now: 12312.
+Memory consumption went from 0.58 GB to 0.57 GB.
+Total: 281.900900 ms (FindLiveObjects: 73.544100 ms CreateObjectMapping: 37.395400 ms MarkObjects: 101.444900 ms  DeleteObjects: 65.867100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 22.09 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 16.18 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  6.099 seconds
+Domain Reload Profiling: 20792ms
+	BeginReloadAssembly (5161ms)
+		ExecutionOrderSort (8ms)
+		DisableScriptedObjects (1194ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (1910ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (2676ms)
+	LoadAllAssembliesAndSetupDomain (6787ms)
+		LoadAssemblies (4421ms)
+		TypeCache.Refresh (289ms)
+			TypeCache.ScanAssembly (3ms)
+		AnalyzeDomain (1846ms)
+			BuildScriptInfoCaches (1769ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (6103ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (6ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (473ms)
+			ProcessInitializeOnLoadAttributes (2306ms)
+			ProcessInitializeOnLoadMethodAttributes (2215ms)
+			AfterProcessingInitializeOnLoad (79ms)
+			EditorAssembliesLoaded (15ms)
+		AwakeInstancesAfterBackupRestoration (160ms)
+Refreshing native plugins compatible for Editor in 33.95 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11249 unused Assets / (18.2 MB). Loaded Objects now: 12315.
+Memory consumption went from 0.58 GB to 0.57 GB.
+Total: 96.391900 ms (FindLiveObjects: 23.446000 ms CreateObjectMapping: 7.265500 ms MarkObjects: 48.587700 ms  DeleteObjects: 15.471000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:53:32.4163239Z
+  Time since last request: 680.63895419999994 seconds.
+  importAddress: GUID: 030025ad559910848a1fca7a62511177 - Path: Assets/Prefabs/AbelhaNormal.prefab - Importer: PreviewImporter
+Importing 'GUID: 030025ad559910848a1fca7a62511177 - Path: Assets/Prefabs/AbelhaNormal.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 030025ad559910848a1fca7a62511177' -> (Import Result ID: 'e3825ccdcd947d27730abe9f6bd5a861') in 1.487 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d73e62d46aae6b77a5c8021049ea2e67 DependenciesID=55273e87a5e1182918c8d677d859bd8a StaticDependenciesID=f8406d2533ae6b9948849e79c1e2c3e4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:53:34.065417Z
+  Time since last request: 0.0244217 seconds.
+  importAddress: GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter
+Importing 'GUID: 8c30815a3194e104fa7f5d00b08e0c77 - Path: Assets/Prefabs/AbelhaTanque.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8c30815a3194e104fa7f5d00b08e0c77' -> (Import Result ID: 'dea97889cfcad39e0e10ccd74b267b92') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f46b17233ba1d968a7b96701e40e94e DependenciesID=5c212fdff0cc40c732d6c761b3dd772a StaticDependenciesID=1a29808ef81ac31ff4de6d7b7f521da2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 22.18 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 19.89 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  9.599 seconds
+Domain Reload Profiling: 52663ms
+	BeginReloadAssembly (8504ms)
+		ExecutionOrderSort (16ms)
+		DisableScriptedObjects (1534ms)
+		ReleaseScriptingObjects (10ms)
+		CreateAndSetChildDomain (3474ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (219ms)
+	initialDomainReloadingComplete (2710ms)
+	LoadAllAssembliesAndSetupDomain (31528ms)
+		LoadAssemblies (25115ms)
+		TypeCache.Refresh (547ms)
+			TypeCache.ScanAssembly (16ms)
+		AnalyzeDomain (5371ms)
+			BuildScriptInfoCaches (5162ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (9609ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (71ms)
+			BeforeProcessingInitializeOnLoad (1021ms)
+			ProcessInitializeOnLoadAttributes (3241ms)
+			ProcessInitializeOnLoadMethodAttributes (3212ms)
+			AfterProcessingInitializeOnLoad (45ms)
+			EditorAssembliesLoaded (39ms)
+		ExecutionOrderSort2 (3ms)
+		AwakeInstancesAfterBackupRestoration (218ms)
+Refreshing native plugins compatible for Editor in 47.80 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11249 unused Assets / (17.2 MB). Loaded Objects now: 12337.
+Memory consumption went from 0.58 GB to 0.56 GB.
+Total: 206.881800 ms (FindLiveObjects: 51.729900 ms CreateObjectMapping: 17.689300 ms MarkObjects: 100.178700 ms  DeleteObjects: 35.967300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-24T03:59:41.4052272Z
+  Time since last request: 367.2052357 seconds.
+  importAddress: GUID: 6c262519fc03ebc49b44c100f3510062 - Path: Assets/scripts/GirassolProdutor.cs - Importer: PreviewImporter
+Importing 'GUID: 6c262519fc03ebc49b44c100f3510062 - Path: Assets/scripts/GirassolProdutor.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6c262519fc03ebc49b44c100f3510062' -> (Import Result ID: 'a74fa1d023243d3646958be43929126c') in 0.083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1050fccca413189486bc25d0333293fc DependenciesID=873e9b8cd66fc35d155457375673d546 StaticDependenciesID=b963bf8b80d6e9ed79c2b6486b4afac6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 13.81 ms, found 7 plugins.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (14.4 MB). Loaded Objects now: 12337.
+Memory consumption went from 0.57 GB to 0.56 GB.
+Total: 788.286500 ms (FindLiveObjects: 9.254500 ms CreateObjectMapping: 6.217900 ms MarkObjects: 765.190500 ms  DeleteObjects: 5.078100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
