@@ -1,54 +1,60 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Dev\\plants versus bees\\",
+  "WorkspaceRootPath": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\GirassolProdutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\GirassolProdutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\SpawnerInimigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\SpawnerInimigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\InimigoMovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\InimigoMovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\GerenciadorOndas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\GerenciadorOndas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\GerenciadorGrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GerenciadorGrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\GerenciadorGrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\GerenciadorDinheiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\GerenciadorDinheiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\PlantaSecreta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\PlantaSecreta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\BaseJogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\BaseJogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\InimigoMovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\InimigoMovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\InimigoDirecao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\InimigoDirecao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\RosaAtiradora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\RosaAtiradora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\Espinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\Espinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\InimigoVida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\InimigoVida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\InimigoVida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\GameManage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\RosaAtiradora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\RosaAtiradora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GameManage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\GameManage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GerenciadorOndas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\GerenciadorOndas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\GirassolProdutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GirassolRaioSol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\GirassolRaioSol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\Espinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\Espinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\plants versus bees\\Assets\\scripts\\SpawnerInimigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GerenciadorDinheiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\GerenciadorDinheiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\BaseJogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\BaseJogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\InimigoDirecao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\InimigoDirecao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,54 +64,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "PlantaSecreta.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\PlantaSecreta.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlantaSecreta.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\PlantaSecreta.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlantaSecreta.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T04:14:11.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GirassolRaioSol.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GirassolRaioSol.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GirassolRaioSol.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GirassolRaioSol.cs",
+              "RelativeToolTip": "Assets\\scripts\\GirassolRaioSol.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T02:26:54.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Espinho.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\Espinho.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Espinho.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\Espinho.cs",
+              "RelativeToolTip": "Assets\\scripts\\Espinho.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T01:06:43.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GerenciadorOndas.cs",
-              "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\GerenciadorOndas.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GerenciadorOndas.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GerenciadorOndas.cs",
-              "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\GerenciadorOndas.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GerenciadorOndas.cs",
               "RelativeToolTip": "Assets\\scripts\\GerenciadorOndas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAcwJQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-24T03:34:59.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "GirassolProdutor.cs",
               "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\GirassolProdutor.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\GirassolProdutor.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Dev\\plants versus bees\\Assets\\scripts\\GirassolProdutor.cs",
               "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\GirassolProdutor.cs",
-              "RelativeToolTip": "Assets\\scripts\\GirassolProdutor.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBEAAAAlAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Dev\\plants versus bees\\Assets\\scripts\\GirassolProdutor.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T02:43:23.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-24T02:43:23.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "GerenciadorDinheiro.cs",
-              "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\GerenciadorDinheiro.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GerenciadorDinheiro.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GerenciadorDinheiro.cs",
-              "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\GerenciadorDinheiro.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GerenciadorDinheiro.cs",
               "RelativeToolTip": "Assets\\scripts\\GerenciadorDinheiro.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAkwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T02:40:10.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-24T02:40:10.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "InimigoDirecao.cs",
-              "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\InimigoDirecao.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\InimigoDirecao.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\InimigoDirecao.cs",
-              "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\InimigoDirecao.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\InimigoDirecao.cs",
               "RelativeToolTip": "Assets\\scripts\\InimigoDirecao.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAAwDwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -113,103 +155,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GerenciadorGrade.cs",
-              "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\GerenciadorGrade.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GerenciadorGrade.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GerenciadorGrade.cs",
-              "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\GerenciadorGrade.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GerenciadorGrade.cs",
               "RelativeToolTip": "Assets\\scripts\\GerenciadorGrade.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAkwLkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAcwPcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T02:55:36.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "SpawnerInimigos.cs",
               "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\SpawnerInimigos.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\SpawnerInimigos.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Dev\\plants versus bees\\Assets\\scripts\\SpawnerInimigos.cs",
               "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\SpawnerInimigos.cs",
-              "RelativeToolTip": "Assets\\scripts\\SpawnerInimigos.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Dev\\plants versus bees\\Assets\\scripts\\SpawnerInimigos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T01:01:03.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-28T01:01:03.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "BaseJogador.cs",
-              "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\BaseJogador.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\BaseJogador.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\BaseJogador.cs",
-              "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\BaseJogador.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\BaseJogador.cs",
               "RelativeToolTip": "Assets\\scripts\\BaseJogador.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T21:15:08.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T21:15:08.219Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "InimigoMovimento.cs",
-              "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\InimigoMovimento.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\InimigoMovimento.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\InimigoMovimento.cs",
-              "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\InimigoMovimento.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\InimigoMovimento.cs",
               "RelativeToolTip": "Assets\\scripts\\InimigoMovimento.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-28T00:50:01.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "InimigoVida.cs",
-              "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\InimigoVida.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\InimigoVida.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\InimigoVida.cs",
-              "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\InimigoVida.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\InimigoVida.cs",
               "RelativeToolTip": "Assets\\scripts\\InimigoVida.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-12T03:35:51.026Z"
+              "WhenOpened": "2026-11-12T03:35:51.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Espinho.cs",
-              "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\Espinho.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Espinho.cs",
-              "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\Espinho.cs",
-              "RelativeToolTip": "Assets\\scripts\\Espinho.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvyQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T01:06:43.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "RosaAtiradora.cs",
-              "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\RosaAtiradora.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\RosaAtiradora.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\RosaAtiradora.cs",
-              "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\RosaAtiradora.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\RosaAtiradora.cs",
               "RelativeToolTip": "Assets\\scripts\\RosaAtiradora.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T01:08:13.855Z"
+              "WhenOpened": "2026-11-13T01:08:13.855Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "GameManage.cs",
-              "DocumentMoniker": "C:\\Dev\\plants versus bees\\Assets\\scripts\\GameManage.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GameManage.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameManage.cs",
-              "ToolTip": "C:\\Dev\\plants versus bees\\Assets\\scripts\\GameManage.cs",
+              "ToolTip": "C:\\Users\\vinic\\OneDrive\\Documentos\\GitHub\\Plants versus Bees\\plants versus bees\\Assets\\scripts\\GameManage.cs",
               "RelativeToolTip": "Assets\\scripts\\GameManage.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwvyoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwC8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T20:31:48.487Z"
+              "WhenOpened": "2026-10-27T20:31:48.487Z",
+              "EditorCaption": ""
             }
           ]
         }

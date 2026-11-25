@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d1d5b0c8d6be342a182fb4b619e25c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoMovimento
-  caminho: []
+  pontos: []
   velocidade: 2
 --- !u!114 &5935603586494261535
 MonoBehaviour:
@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoVida
   vida: 3
+  recompensaDinheiro: 10
 --- !u!61 &5356894383065065754
 BoxCollider2D:
   m_ObjectHideFlags: 0

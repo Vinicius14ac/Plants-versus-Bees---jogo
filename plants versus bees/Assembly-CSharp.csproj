@@ -60,10 +60,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\Tools\BuildPipeline\Unity.Analyzers\Unity.Analyzers.Common.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\Tools\BuildPipeline\Unity.Analyzers\Unity.Analyzers.LongLiving.dll" />
-    <Analyzer Include="C:\Dev\plants versus bees\Library\PackageCache\com.unity.ai.inference@9a123aee5df7\Runtime\Core\SourceGenerator\SourceGenerators.dll" />
-    <Analyzer Include="C:\Dev\plants versus bees\Library\PackageCache\com.unity.dt.app-ui@8606a9847e5b\Runtime\SourceGenerators\netstandard2.0\EnumToLowerCase.dll" />
-    <Analyzer Include="C:\Dev\plants versus bees\Library\PackageCache\com.unity.dt.app-ui@8606a9847e5b\Runtime\SourceGenerators\netstandard2.0\UxmlCloneTreeGenerator.dll" />
-    <Analyzer Include="C:\Dev\plants versus bees\Library\PackageCache\com.unity.dt.app-ui@8606a9847e5b\Runtime\MVVM\SourceGenerators\netstandard2.0\MVVMSourceGenerators.dll" />
+    <Analyzer Include="C:\Users\vinic\OneDrive\Documentos\GitHub\Plants versus Bees\plants versus bees\Library\PackageCache\com.unity.ai.inference@9a123aee5df7\Runtime\Core\SourceGenerator\SourceGenerators.dll" />
+    <Analyzer Include="C:\Users\vinic\OneDrive\Documentos\GitHub\Plants versus Bees\plants versus bees\Library\PackageCache\com.unity.dt.app-ui@8606a9847e5b\Runtime\SourceGenerators\netstandard2.0\EnumToLowerCase.dll" />
+    <Analyzer Include="C:\Users\vinic\OneDrive\Documentos\GitHub\Plants versus Bees\plants versus bees\Library\PackageCache\com.unity.dt.app-ui@8606a9847e5b\Runtime\SourceGenerators\netstandard2.0\UxmlCloneTreeGenerator.dll" />
+    <Analyzer Include="C:\Users\vinic\OneDrive\Documentos\GitHub\Plants versus Bees\plants versus bees\Library\PackageCache\com.unity.dt.app-ui@8606a9847e5b\Runtime\MVVM\SourceGenerators\netstandard2.0\MVVMSourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\analyzers\dotnet\roslyn4.0\cs\Microsoft.Extensions.Logging.Generators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.dll" />
   </ItemGroup>
@@ -73,12 +73,13 @@
     <Compile Include="Assets\scripts\Espinho.cs" />
     <Compile Include="Assets\scripts\InimigoDirecao.cs" />
     <Compile Include="Assets\scripts\InimigoMovimento.cs" />
-    <Compile Include="Assets\scripts\GirassolProdutor.cs" />
     <Compile Include="Assets\scripts\RosaAtiradora.cs" />
     <Compile Include="Assets\scripts\GerenciadorOndas.cs" />
     <Compile Include="Assets\scripts\GameManage.cs" />
     <Compile Include="Assets\scripts\GerenciadorDinheiro.cs" />
+    <Compile Include="Assets\scripts\PlantaSecreta.cs" />
     <Compile Include="Assets\scripts\BaseJogador.cs" />
+    <Compile Include="Assets\scripts\GirassolRaioSol.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

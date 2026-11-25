@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GerenciadorOndas : MonoBehaviour
@@ -31,6 +32,10 @@ public class GerenciadorOndas : MonoBehaviour
     public GameObject botaoPronto;
     public TMP_Text textoOnda;
 
+    [Header("Vitória e Próxima Fase")]
+    public GameObject telaVitoria;
+    public string nomeProximaFase = "Fase2";
+
     [HideInInspector]
     public bool batalhaIniciada = false;
 
@@ -45,9 +50,13 @@ public class GerenciadorOndas : MonoBehaviour
         {
             textoOnda.text = "Monte sua defesa!";
         }
+
+        if (telaVitoria != null)
+        {
+            telaVitoria.SetActive(false);
+        }
     }
 
-    // Função chamada ao clicar no botão PRONTO
     public void IniciarBatalha()
     {
         if (batalhaIniciada) return;
@@ -71,7 +80,6 @@ public class GerenciadorOndas : MonoBehaviour
                 textoOnda.text = "Onda: " + (i + 1) + "/" + ondas.Length;
             }
 
-            // Separa as letras "n", "r", "t" da onda atual
             string[] sequencia = ondas[i].Split(new char[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
 
             for (int j = 0; j < sequencia.Length; j++)
@@ -80,13 +88,11 @@ public class GerenciadorOndas : MonoBehaviour
                 yield return new WaitForSeconds(tempoEntreAbelhas);
             }
 
-            // Espera todas as abelhas da onda atual serem derrotadas antes de passar para a próxima
             while (GameObject.FindGameObjectsWithTag("Inimigo").Length > 0)
             {
                 yield return null;
             }
 
-            // Pausa rápida antes da próxima onda (exceto na última)
             if (i < ondas.Length - 1)
             {
                 if (textoOnda != null)
@@ -97,13 +103,24 @@ public class GerenciadorOndas : MonoBehaviour
             }
         }
 
-        // Todas as 5 ondas foram concluídas!
         if (textoOnda != null)
         {
             textoOnda.text = "Vitória!";
         }
-        Debug.Log("Vitória! Todas as 5 ondas concluídas.");
-        // Na próxima etapa vamos chamar a Tela de Vitória aqui
+
+        if (telaVitoria != null)
+        {
+            telaVitoria.SetActive(true);
+        }
+    }
+
+    public void CarregarProximaFase()
+    {
+        Time.timeScale = 1f;
+        if (!string.IsNullOrEmpty(nomeProximaFase))
+        {
+            SceneManager.LoadScene(nomeProximaFase);
+        }
     }
 
     void SpawnarAbelha(string tipo)

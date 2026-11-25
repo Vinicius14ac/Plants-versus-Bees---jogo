@@ -1,19 +1,19 @@
 
 Server arguments:
   --memory-size 1073741824
-  --shared-postfix b2d8b46074ee4df01b16b53b13c0facf
+  --shared-postfix 5b4408e71ef19fcc8c68c03707d73932
   --working-directory Library/DataStore
   --silent-console
   --shutdown-grace 0
   --client-process-check 0
-  --uds-log-file C:/Dev/plants versus bees/Logs/UDS-Service.log
+  --uds-log-file C:/Users/vinic/OneDrive/Documentos/GitHub/Plants versus Bees/plants versus bees/Logs/UDS-Service.log
   --debug-log 2
   -name
   Unity.DataStore
 
 Initialising UDS system complete:
   - System type: Service
-  - Resource namespace: b2d8b46074ee4df01b16b53b13c0facf
+  - Resource namespace: 5b4408e71ef19fcc8c68c03707d73932
   - Shared memory size: 1073741824
   - Command buffer id: 1052576
   - Command buffer size: 8192

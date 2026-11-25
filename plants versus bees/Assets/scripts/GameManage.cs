@@ -16,33 +16,46 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Começa o jogo mostrando o título
-        MostrarTelaTitulo();
-    }
+        Time.timeScale = 1f;
 
-    public void MostrarTelaTitulo()
-    {
-        telaDeTitulo.SetActive(true);
-        telaDeMorte.SetActive(false);
-        Time.timeScale = 0f; // Pausa tudo que se move no jogo
+        if (telaDeMorte != null)
+        {
+            telaDeMorte.SetActive(false);
+        }
+
+        // Só abre a Tela de Título se ela existir nesta fase (na Fase 2 fica vazio sem dar erro)
+        if (telaDeTitulo != null)
+        {
+            telaDeTitulo.SetActive(true);
+        }
     }
 
     public void IniciarJogo()
     {
-        telaDeTitulo.SetActive(false);
-        telaDeMorte.SetActive(false);
-        Time.timeScale = 1f; // O jogo volta a rodar na velocidade normal
+        if (telaDeTitulo != null)
+        {
+            telaDeTitulo.SetActive(false);
+        }
+        Time.timeScale = 1f;
     }
 
     public void GameOver()
     {
-        telaDeMorte.SetActive(true);
-        Time.timeScale = 0f; // Pausa o jogo quando o jogador morre
+        if (telaDeMorte != null)
+        {
+            telaDeMorte.SetActive(true);
+        }
+        Time.timeScale = 0f;
     }
 
     public void ReiniciarJogo()
     {
-        Time.timeScale = 1f; // Garante que o tempo volte ao normal antes de recarregar
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Recarrega o nível atual
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void SairDoJogo()
+    {
+        Application.Quit();
     }
 }

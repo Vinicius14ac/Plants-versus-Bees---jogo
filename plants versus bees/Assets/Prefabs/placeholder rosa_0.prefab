@@ -153,4 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RosaAtiradora
   espinhoPrefab: {fileID: 7252809020049916077, guid: 01c423f9f5c8e7b41b0f75e0e1747dcf, type: 3}
-  tempoEntreTiros: 1.5
+  pontoDisparo: {fileID: 0}
+  alcance: 4.2
+  alturaDeteccao: 0.9
+  intervaloTiro: 1.4

@@ -1,37 +1,40 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Espinho : MonoBehaviour
 {
     public float velocidade = 8f;
     public int dano = 1;
-    public float tempoDeVida = 4f;
+    [HideInInspector] public float distanciaMaxima = 4.5f;
 
-    // Lista para garantir que cada inimigo leve dano apenas 1 vez por espinho
-    private List<GameObject> inimigosAtingidos = new List<GameObject>();
+    private Vector3 posicaoInicial;
 
     void Start()
     {
-        Destroy(gameObject, tempoDeVida);
+        posicaoInicial = transform.position;
     }
 
     void Update()
     {
-        transform.Translate(Vector3.right * velocidade * Time.deltaTime);
+        // Move na direção para a qual a Rosa está virada (direita ou esquerda)
+        transform.position += transform.right * velocidade * Time.deltaTime;
+
+        // Destrói o espinho ao atingir o alcance máximo da Rosa
+        if (Vector2.Distance(posicaoInicial, transform.position) >= distanciaMaxima)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D outro)
     {
-        if (outro.CompareTag("Inimigo") && !inimigosAtingidos.Contains(outro.gameObject))
+        if (outro.CompareTag("Inimigo"))
         {
-            inimigosAtingidos.Add(outro.gameObject);
-
             InimigoVida vidaInimigo = outro.GetComponent<InimigoVida>();
             if (vidaInimigo != null)
             {
                 vidaInimigo.ReceberDano(dano);
             }
-            // Como não destruímos o espinho aqui, ele continua atravessando os inimigos
+            Destroy(gameObject);
         }
     }
 }

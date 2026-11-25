@@ -1,27 +1,37 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class GerenciadorGrade : MonoBehaviour
 {
     [Header("Prefabs das Plantas")]
     public GameObject girassolPrefab;
     public GameObject rosaPrefab;
+    public GameObject plantaSecretaPrefab;
 
     [Header("Custo das Plantas")]
     public int custoGirassol = 50;
     public int custoRosa = 100;
 
-    [Header("Configuração da Grade")]
-    public float larguraCelula = 1f;
-    public float alturaCelula = 1f;
-    public Vector2 offsetGrade = Vector2.zero;
-
-    [Header("Pré-visualização")]
+    [Header("Bloqueio e Pré-visualização")]
+    public float raioOcupacao = 0.45f;
     [Range(0.1f, 1f)]
     public float transparenciaPreview = 0.55f;
+    public GameObject telaTitulo;
 
     private GameObject plantaSelecionada;
     private GameObject previewAtual;
-    private float rotacaoAtual = 0f; // 0 = Direita | 180 = Esquerda
+    private float rotacaoAtual = 0f;
+
+    // Sequência: Cima, Cima, Baixo, Baixo, Esquerda, Direita, Esquerda, Direita
+    private readonly KeyCode[] sequenciaSecreta = new KeyCode[]
+    {
+        KeyCode.UpArrow, KeyCode.UpArrow,
+        KeyCode.DownArrow, KeyCode.DownArrow,
+        KeyCode.LeftArrow, KeyCode.RightArrow,
+        KeyCode.LeftArrow, KeyCode.RightArrow
+    };
+    private int indiceCodigo = 0;
+    private bool secretoDesbloqueado = false;
 
     void Start()
     {
@@ -30,19 +40,35 @@ public class GerenciadorGrade : MonoBehaviour
 
     void Update()
     {
-        // Tecla 1 seleciona o Girassol
+        if (telaTitulo != null && telaTitulo.activeInHierarchy)
+        {
+            if (previewAtual != null) previewAtual.SetActive(false);
+            return;
+        }
+
+        if (previewAtual != null && !previewAtual.activeSelf)
+        {
+            previewAtual.SetActive(true);
+        }
+
+        VerificarCodigoSecreto();
+
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             SelecionarPlanta(girassolPrefab);
         }
 
-        // Tecla 2 seleciona a Rosa
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             SelecionarPlanta(rosaPrefab);
         }
 
-        // Tecla R alterna a Rosa apenas entre Direita (0°) e Esquerda (180°)
+        // Depois de digitar o código uma vez, a tecla 3 também seleciona o quadrado secreto
+        if (secretoDesbloqueado && Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            SelecionarPlanta(plantaSecretaPrefab);
+        }
+
         if (Input.GetKeyDown(KeyCode.R) && plantaSelecionada == rosaPrefab)
         {
             rotacaoAtual = (rotacaoAtual == 0f) ? 180f : 0f;
@@ -50,11 +76,43 @@ public class GerenciadorGrade : MonoBehaviour
 
         AtualizarPreview();
 
-        // Clique esquerdo coloca a planta selecionada
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !IsMouseSobreUI())
         {
             PosicionarPlanta();
         }
+    }
+
+    void VerificarCodigoSecreto()
+    {
+        if (Input.anyKeyDown)
+        {
+            if (Input.GetKeyDown(sequenciaSecreta[indiceCodigo]))
+            {
+                indiceCodigo++;
+
+                if (indiceCodigo >= sequenciaSecreta.Length)
+                {
+                    secretoDesbloqueado = true;
+                    indiceCodigo = 0;
+                    SelecionarPlanta(plantaSecretaPrefab);
+                    Debug.Log("Código secreto ativado!");
+                }
+            }
+            else if (
+                Input.GetKeyDown(KeyCode.UpArrow) ||
+                Input.GetKeyDown(KeyCode.DownArrow) ||
+                Input.GetKeyDown(KeyCode.LeftArrow) ||
+                Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                // Se errar a seta, reinicia (ou começa do 1 se apertou Cima)
+                indiceCodigo = Input.GetKeyDown(KeyCode.UpArrow) ? 1 : 0;
+            }
+        }
+    }
+
+    bool IsMouseSobreUI()
+    {
+        return EventSystem.current != null && EventSystem.current.IsPointerOverGameObject();
     }
 
     void SelecionarPlanta(GameObject novaPlanta)
@@ -76,6 +134,11 @@ public class GerenciadorGrade : MonoBehaviour
             Destroy(col);
         }
 
+        foreach (Rigidbody2D rb in previewAtual.GetComponentsInChildren<Rigidbody2D>())
+        {
+            Destroy(rb);
+        }
+
         foreach (MonoBehaviour script in previewAtual.GetComponentsInChildren<MonoBehaviour>())
         {
             Destroy(script);
@@ -91,14 +154,13 @@ public class GerenciadorGrade : MonoBehaviour
     {
         if (previewAtual == null) return;
 
-        Vector3 posicaoAlinhada = ObterPosicaoAlinhadaMouse();
-        previewAtual.transform.position = posicaoAlinhada;
+        Vector3 posicaoMouse = ObterPosicaoMouse();
+        previewAtual.transform.position = posicaoMouse;
 
         bool ehRosa = (plantaSelecionada == rosaPrefab);
         AplicarOrientacao(previewAtual, ehRosa);
 
-        // Fica vermelho transparente se o quadrado estiver ocupado OU se faltar dinheiro
-        bool podeColocar = PodePlantar(posicaoAlinhada) && PodeComprar();
+        bool podeColocar = PodePlantar(posicaoMouse) && PodeComprar();
         Color corPreview = podeColocar
             ? new Color(1f, 1f, 1f, transparenciaPreview)
             : new Color(1f, 0.35f, 0.35f, transparenciaPreview);
@@ -113,13 +175,13 @@ public class GerenciadorGrade : MonoBehaviour
     {
         if (plantaSelecionada == null) return;
 
-        Vector3 posicaoAlinhada = ObterPosicaoAlinhadaMouse();
+        Vector3 posicaoMouse = ObterPosicaoMouse();
 
-        if (PodePlantar(posicaoAlinhada))
+        if (PodePlantar(posicaoMouse))
         {
             if (GerenciadorDinheiro.instance == null || GerenciadorDinheiro.instance.TentarGastarDinheiro(ObterCustoAtual()))
             {
-                GameObject novaPlanta = Instantiate(plantaSelecionada, posicaoAlinhada, Quaternion.identity);
+                GameObject novaPlanta = Instantiate(plantaSelecionada, posicaoMouse, Quaternion.identity);
                 AplicarOrientacao(novaPlanta, plantaSelecionada == rosaPrefab);
             }
         }
@@ -129,6 +191,7 @@ public class GerenciadorGrade : MonoBehaviour
     {
         if (plantaSelecionada == girassolPrefab) return custoGirassol;
         if (plantaSelecionada == rosaPrefab) return custoRosa;
+        if (plantaSelecionada == plantaSecretaPrefab) return 0; // Custo zero
         return 0;
     }
 
@@ -150,37 +213,36 @@ public class GerenciadorGrade : MonoBehaviour
         }
     }
 
-    Vector3 ObterPosicaoAlinhadaMouse()
+    Vector3 ObterPosicaoMouse()
     {
         Vector3 posicaoMouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         posicaoMouse.z = 0f;
-
-        float xGrid = Mathf.Floor((posicaoMouse.x - offsetGrade.x) / larguraCelula) * larguraCelula + (larguraCelula / 2f) + offsetGrade.x;
-        float yGrid = Mathf.Floor((posicaoMouse.y - offsetGrade.y) / alturaCelula) * alturaCelula + (alturaCelula / 2f) + offsetGrade.y;
-
-        return new Vector3(xGrid, yGrid, 0f);
+        return posicaoMouse;
     }
 
     bool PodePlantar(Vector3 posicao)
     {
-        Collider2D objetoNoLocal = Physics2D.OverlapCircle(posicao, 0.3f);
-        return objetoNoLocal == null || objetoNoLocal.isTrigger;
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = new Color(0, 1, 0, 0.4f);
-        for (int x = -10; x <= 10; x++)
+        // O quadrado secreto ignora bloqueios de terreno e pode ser colocado direto na estrada
+        if (plantaSelecionada == plantaSecretaPrefab)
         {
-            for (int y = -6; y <= 6; y++)
+            return true;
+        }
+
+        Collider2D[] colisores = Physics2D.OverlapCircleAll(posicao, raioOcupacao);
+
+        foreach (Collider2D col in colisores)
+        {
+            if (col.CompareTag("Bloqueado"))
             {
-                Vector3 centro = new Vector3(
-                    (x * larguraCelula) + (larguraCelula / 2f) + offsetGrade.x,
-                    (y * alturaCelula) + (alturaCelula / 2f) + offsetGrade.y,
-                    0
-                );
-                Gizmos.DrawWireCube(centro, new Vector3(larguraCelula, alturaCelula, 0));
+                return false;
+            }
+
+            if (!col.isTrigger && !col.CompareTag("Inimigo"))
+            {
+                return false;
             }
         }
+
+        return true;
     }
 }
